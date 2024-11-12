@@ -1,0 +1,301 @@
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-08T10:41:46.709Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2024-11-08T10:41:46.731Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-08T10:41:53.118Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2024-11-08T10:41:53.135Z"}
+{"level":"error","message":"Converting circular structure to JSON\n    --> starting at object with constructor 'MongoClient'\n    |     property 's' -> object with constructor 'Object'\n    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n    --- property 'client' closes the circle Converting circular structure to JSON\n    --> starting at object with constructor 'MongoClient'\n    |     property 's' -> object with constructor 'Object'\n    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n    --- property 'client' closes the circle","stack":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'MongoClient'\n    |     property 's' -> object with constructor 'Object'\n    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n    --- property 'client' closes the circle\n    at JSON.stringify (<anonymous>)\n    at stringify (C:\\Users\\Jenish\\Shive Infotech\\Node-js\\Genre-App\\node_modules\\express\\lib\\response.js:1160:12)\n    at ServerResponse.json (C:\\Users\\Jenish\\Shive Infotech\\Node-js\\Genre-App\\node_modules\\express\\lib\\response.js:271:14)\n    at ServerResponse.send (C:\\Users\\Jenish\\Shive Infotech\\Node-js\\Genre-App\\node_modules\\express\\lib\\response.js:162:21)\n    at C:\\Users\\Jenish\\Shive Infotech\\Node-js\\Genre-App\\src\\routes\\users.js:10:7\n    at Layer.handle [as handle_request] (C:\\Users\\Jenish\\Shive Infotech\\Node-js\\Genre-App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Jenish\\Shive Infotech\\Node-js\\Genre-App\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Jenish\\Shive Infotech\\Node-js\\Genre-App\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Jenish\\Shive Infotech\\Node-js\\Genre-App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Jenish\\Shive Infotech\\Node-js\\Genre-App\\node_modules\\express\\lib\\router\\index.js:284:15","timestamp":"2024-11-08T10:41:57.635Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-08T10:42:41.932Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2024-11-08T10:42:41.950Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-08T11:35:04.900Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2024-11-08T11:35:04.920Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T07:56:49.213Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2024-11-11T07:56:49.251Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T07:57:50.087Z"}
+{"level":"info","message":"Connected to MongoDB mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T07:57:50.103Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T07:58:05.851Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T07:58:05.868Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:02:17.864Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:02:17.883Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:10:52.441Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:12:21.710Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:12:21.746Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:13:10.614Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:13:10.656Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:13:21.884Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:13:21.929Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:13:38.680Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:13:38.740Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:13:54.342Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:13:54.373Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:14:02.932Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:14:02.948Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:20:53.855Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:20:54.267Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:21:17.024Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:21:17.050Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:22:38.870Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:22:38.890Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:23:16.906Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:23:16.945Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:23:22.126Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:23:22.145Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:24:07.213Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:24:07.296Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:28:43.010Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:28:43.027Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:28:52.290Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:28:52.310Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:28:57.231Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:28:57.245Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:29:09.234Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:29:09.272Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:29:30.076Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:29:30.127Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:29:34.078Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:29:34.095Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:31:45.412Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:31:45.431Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:33:08.153Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:33:08.177Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:34:51.808Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:34:51.838Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:36:36.011Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:36:36.030Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:38:05.191Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:38:05.241Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:39:32.275Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:39:32.292Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:40:57.948Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:40:57.971Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:41:23.636Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:41:23.662Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:41:39.587Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:41:39.609Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:42:17.467Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:42:17.489Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:43:05.258Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:43:05.274Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:43:18.329Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:43:18.349Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:43:43.213Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:43:43.241Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:56:58.583Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:56:58.831Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T08:57:27.903Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T08:57:27.933Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:47:08.146Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:47:08.906Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:51:57.841Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:51:57.871Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:53:03.909Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:53:03.931Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:54:22.442Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:54:23.616Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:55:10.127Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:55:10.181Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:55:57.344Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:55:57.367Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:56:26.973Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:56:26.993Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:57:10.980Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:57:11.033Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:57:51.923Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:57:51.992Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:58:09.014Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:58:09.073Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:58:30.545Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:58:30.568Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:58:36.668Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:58:36.685Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T09:59:06.677Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T09:59:06.694Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:11:36.909Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:11:36.948Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:12:05.129Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:12:05.155Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:12:56.792Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:12:56.866Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:14:12.725Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:14:12.751Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:14:31.539Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:14:31.563Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:14:41.038Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:14:41.056Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:14:59.459Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:14:59.508Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:15:57.730Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:15:57.798Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:18:19.550Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:18:19.703Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:18:40.464Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:18:40.494Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:18:50.438Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:18:50.477Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:20:05.525Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:20:05.584Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:20:17.321Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:20:17.342Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:24:05.612Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:24:06.416Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:25:42.074Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:25:42.192Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:27:16.221Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:27:16.403Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:27:33.561Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:27:33.618Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:29:53.433Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:29:53.497Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:30:56.268Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:30:56.319Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:31:37.628Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:31:37.801Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:32:25.712Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:32:25.767Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:32:43.193Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:32:43.272Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:33:20.971Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:33:21.056Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:54:46.492Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:54:47.812Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T10:55:22.534Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T10:55:22.595Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:01:03.709Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:01:04.475Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:06:47.008Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:06:47.096Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:08:58.120Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:08:58.322Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:08:59.611Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:08:59.688Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:12:53.932Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:12:54.005Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:13:27.596Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:13:27.788Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:13:28.771Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:14:22.909Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:14:22.982Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:14:23.024Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:14:49.558Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:14:49.607Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:14:49.646Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:16:46.962Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:16:47.007Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:16:47.512Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:16:47.541Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:16:57.703Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:16:57.815Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:16:58.365Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:16:58.421Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:17:59.288Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:17:59.813Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:17:59.797Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:17:59.851Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:18:18.143Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:18:18.698Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:18:18.679Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:18:18.751Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:19:58.356Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:19:58.418Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:19:58.905Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:19:58.946Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:20:48.436Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:20:48.492Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:20:49.048Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:20:49.120Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:20:53.076Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:20:53.119Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:20:53.560Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:20:53.611Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:21:33.581Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:21:33.633Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:21:34.096Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:21:34.156Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:23:21.172Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:23:21.230Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:23:21.822Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:23:21.862Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:24:01.354Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:24:01.402Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:24:01.969Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:24:02.029Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:24:39.265Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:24:39.358Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:24:39.903Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:24:39.955Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:25:13.086Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:25:13.166Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:25:13.634Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:25:13.677Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:25:24.862Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:25:24.880Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:25:25.583Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:25:25.634Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:26:05.123Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:26:05.183Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:26:05.936Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:26:05.998Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:26:31.368Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:26:31.393Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T11:26:31.972Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T11:26:32.256Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:15:56.461Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:15:57.681Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:15:58.651Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:15:58.966Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:16:27.825Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:16:27.825Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:16:27.854Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:16:27.888Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:16:31.272Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:16:31.282Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:16:31.314Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:16:31.337Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:17:36.836Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:17:36.836Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:17:36.881Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:17:36.943Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:18:57.518Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:18:57.521Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:18:57.554Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:18:57.629Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:19:15.144Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:19:15.702Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:19:15.687Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:19:15.771Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:19:35.763Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:19:36.284Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:19:36.261Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:19:36.327Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:34:20.979Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:34:21.525Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:34:21.493Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:34:21.590Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:34:36.199Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:34:36.216Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:34:36.789Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:34:37.087Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:36:18.715Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:36:18.824Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:36:19.745Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:36:20.094Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:37:10.882Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:37:10.907Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-11T12:37:11.517Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-11T12:37:11.791Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-12T05:25:32.718Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-12T05:25:33.549Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-12T05:25:34.347Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-12T05:25:34.723Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-12T05:25:36.009Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-12T05:25:36.032Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-12T05:25:36.631Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-12T05:25:36.938Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-12T05:36:06.484Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-12T05:36:06.515Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-12T05:36:07.231Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-12T05:36:07.598Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-12T05:36:24.436Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-12T05:36:24.522Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-12T05:36:25.250Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-12T05:36:25.568Z"}
+{"level":"info","message":"listening on port 8080","timestamp":"2024-11-12T07:04:11.030Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/Genres-vidley...","timestamp":"2024-11-12T07:04:11.078Z"}
