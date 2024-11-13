@@ -5,11 +5,19 @@ const movie = require("../routes/movies");
 const user = require("../routes/users");
 const auth = require("../routes/auth");
 const error = require("../middleware/error");
+const path = require("path");
+const upload = require("../config/multer");
+const handleProfileImageUpload = require("../middleware/handleProfileImageUpload");
 
 module.exports = function (app) {
-  app.use(express.urlencoded({ extended: false }));
-  app.use(express.json());
   require("dotenv").config();
+
+  app.post(
+    "/profile",
+    upload.fields([{ name: "profileImage" }, { name: "coverImage" }]),
+    handleProfileImageUpload
+  );
+
   app.use("/api/genres", genre);
   app.use("/api/customers", customer);
   app.use("/api/movies", movie);
