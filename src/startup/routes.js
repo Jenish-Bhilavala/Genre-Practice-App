@@ -7,6 +7,7 @@ const auth = require("../routes/auth");
 const error = require("../middleware/error");
 
 module.exports = function (app) {
+  app.use(express.urlencoded({ extended: false }));
   app.use(express.json());
   require("dotenv").config();
   app.use("/api/genres", genre);
