@@ -20,17 +20,23 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "form.html"));
 });
 
-app.post("/profile", upload.single("profileImage"), function (req, res, next) {
-  // Check if a file was uploaded
-  if (!req.file) {
-    console.log("File not found");
-    return res.status(400).send("No file uploaded.");
-  }
-  console.log(req.body);
-  console.log(req.file);
+app.post(
+  "/profile",
+  upload.fields([{ name: "profileImage" }, { name: "coverImage" }]),
+  function (req, res, next) {
+    if (!req.files || !req.files.profileImage || !req.files.coverImage) {
+      console.log("One or both files are missing.");
+      return res
+        .status(400)
+        .send("Both profile image and cover image are required.");
+    }
+    console.log("Request body:", req.body);
+    console.log("Profile Image:", req.files.profileImage);
+    console.log("Cover Image:", req.files.coverImage);
 
-  return res.redirect("/");
-});
+    return res.redirect("/");
+  }
+);
 
 require("./src/startup/logging")();
 require("./src/startup/routes")(app);
